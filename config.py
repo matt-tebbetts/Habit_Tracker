@@ -11,9 +11,6 @@ def get_env_variable(var_name):
     return value
 
 credentials = {
-    'MINT_USER': get_env_variable('MINT_USER'),
-    'MINT_PASS': get_env_variable('MINT_PASS'),
-    'MINT_TOKEN': get_env_variable('MINT_TOKEN'),
     'SQL_USER': get_env_variable('SQLUSER'),
     'SQL_PASS': get_env_variable('SQLPASS'),
     'SQL_HOST': get_env_variable('SQLHOST'),
