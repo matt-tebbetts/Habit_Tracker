@@ -1,4 +1,9 @@
-# Python
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
@@ -21,18 +26,21 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
-venv/
-ENV/
-
-# IDE
+# IDE specific files
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Project specific
+# Environment variables
 .env
+.env.local
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Project specific
 credentials.json
 token.json
 *.csv 
